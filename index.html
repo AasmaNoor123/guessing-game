@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Number Guessing Game :-</h1>
+        <p class="instruction">Guess the number between 1 to 100.</p>
+        <!-- Min or max mai hum jo dengy wo range hain usse ziyada ya kam koi numb nhi de skta -->
+        <input type="number" id="guessInput" min="1" max="1oo" placeholder="Enter Your Guess">
+        <button id="checkButton">Check</button>
+<!--jb condition melt kary tu wo data is mai store hojaye  -->
+        <p id="result"></p>
+    <!-- when win game so display this button -->
+        <button id="restartButton" style="display: none;">Restart</button>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
